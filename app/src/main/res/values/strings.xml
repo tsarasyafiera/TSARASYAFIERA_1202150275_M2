@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TSARA SYAFIERA_1202150275_MODUL2</string>
+
+    <string name="radio_dinein">Dine In</string>
+    <string name="radio_takeaway">Take Away</string>
+    <string name="pesan">Pesan Sekarang</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="pilihmenu">Pilih Menu yang mana ?</string>
+    <string-array name="tabels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+    </string-array>
+
+</resources>

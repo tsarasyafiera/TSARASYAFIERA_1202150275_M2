@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context="com.example.android.tsarasyafiera_1202150275_modul2.MenuUtama">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/hamburger" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Pilih Menu : "
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioButton_dinein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:text="@string/radio_dinein" />
+
+        <RadioButton
+            android:id="@+id/radioButton_takeaway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:text="@string/radio_takeaway" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnPesan"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/radioGroupPesan"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/pesan"
+        android:onClick="pesanSekarang"/>
+</LinearLayout>
